@@ -1,11 +1,12 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
-url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+title: Psyhologist
+email: akarpeyeva@gmail.com
+url: https://resetpsy.com
+description: "Anastasia, a compassionate and insightful psychologist, helps patients navigate life's challenges and unlock their full potential through evidence-based therapy and a warm, supportive approach."
+keywords: "psychologist, psychology, therapy, training, trainor, coach, coaching, mentor, mentoring"
+skills: "Psychologist - Coach - Trainer"
+meta_author: Karpeyeva Anastasia
+name: Anastasia Karpeyeva
 
 # Google webmaster tools
 google_verify:
@@ -25,38 +26,34 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF
-  primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 8b9dc3 #80B3FF green mint
+  primary-rgb: "139,157,195" #"128,179,255"
+  secondary: 3b5998 #FD6E8A dark gray 1
+  secondary-dark: 8b9dc3 #A2122F dark gray 1
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Anastasia Karpeyeva
   location: Location
-  social: Around the Web
-  credits: Credits
+  social: Web
+  credits: Get in Touch
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  - title: linkedin
+    url: https://www.linkedin.com/in/akarpeyeva
+  - title: instagram
+    url: https://www.instagram.com/anastasia.karpeyeva.nl
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: "Delft"
+  - line: "The Netherlands"
 
 # Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 
+  - line: "<a href=\"mailto:akarpeyeva@gmail.com\" style=\"color: white;\">akarpeyeva@gmail.com</a>"
+  - line: "<a href=\"tel:+31613692325\" style=\"color: white;\">+31 6 13692325</a>"
 
 # Build settings
 markdown: kramdown
