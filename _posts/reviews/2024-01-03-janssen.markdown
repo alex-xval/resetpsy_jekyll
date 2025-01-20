@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: reviews-3
+date: 2024-01-03
+img: 
+alt: Peter Janssen review. I was stuck in a career rut and feeling unfulfilled ...
+project-date: 
+client: Peter Janssen
+category: reviews
+description: I was stuck in a career rut and feeling unfulfilled. Anastasia helped me identify my true passions and create a plan to achieve my goals.  Her coaching was insightful and motivating, and I now have a renewed sense of purpose and direction in my career. I highly recommend her services to anyone seeking professional fulfillment.
+---

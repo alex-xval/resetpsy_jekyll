@@ -35,3 +35,11 @@ $('body').scrollspy({
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+
+// ESC closes modal
+$(document).on( 
+    'keydown', function(event) { 
+      if (event.key == "Escape") { 
+        $('.btn-default:visible').click();
+      } 
+}); 

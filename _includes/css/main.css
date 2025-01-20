@@ -36,6 +36,10 @@ h6 {
     font-weight: 700;
 }
 
+.secondary-color {
+    color: #{{ site.color.secondary }} !important;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
@@ -74,6 +78,10 @@ hr.star-primary {
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
+}
+
+hr.star-secondary-light:after {
+    background-color: #{{ site.color.secondary-light }};
 }
 
 .img-centered {
@@ -194,6 +202,10 @@ section.success {
         padding-top: 75px;
     }
 }
+
+#reviews {
+    background-color: #{{ site.color.secondary-light }};
+  }
 
 #portfolio .portfolio-item {
     right: 0;

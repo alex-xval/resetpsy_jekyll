@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: reviews-2
+date: 2024-01-02
+img: 
+alt: Aisha Khan review. Going through my divorce was incredibly painful ...
+project-date: 
+client: Aisha Khan
+category: reviews
+description: Going through my divorce was incredibly painful, but Anastasia provided a safe and supportive space for me to heal and find my strength again. Her insights and empathy were truly remarkable.  Thanks to her guidance, I was able to navigate this difficult transition with clarity and confidence. I am forever grateful for her support.
+---

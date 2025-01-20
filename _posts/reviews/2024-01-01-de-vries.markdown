@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: reviews-1
+date: 2024-01-01
+img: 
+alt: Jan and Elsbeth de Vries review. After 25 years of marriage, we felt lost and disconnected ...
+project-date: 
+client: Jan and Elsbeth de Vries
+category: reviews
+description: After 25 years of marriage, we felt lost and disconnected. Anastasia helped us rediscover our love for each other and rebuild our relationship stronger than ever. Her guidance was invaluable, and we are so grateful for her support during this challenging time. We highly recommend her to any couple seeking to reignite their spark!
+---
