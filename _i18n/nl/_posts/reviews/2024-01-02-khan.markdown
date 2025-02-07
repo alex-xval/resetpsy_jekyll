@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: reviews-2
+date: 2024-01-02
+img: 
+alt: Aisha Khan review. Mijn scheiding doormaken was ongelooflijk pijnlijk ...
+project-date: 
+client: Aisha Khan
+category: reviews
+description: Mijn scheiding doormaken was ongelooflijk pijnlijk, maar Anastasia bood me een veilige en ondersteunende ruimte om te helen en mijn kracht weer te vinden. Haar inzichten en empathie waren echt opmerkelijk. Dankzij haar begeleiding kon ik deze moeilijke overgang met helderheid en vertrouwen doorstaan. Ik ben haar eeuwig dankbaar voor haar steun. 
+---

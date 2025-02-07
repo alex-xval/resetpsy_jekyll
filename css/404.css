@@ -1,0 +1,30 @@
+﻿@import url('https:////fonts.googleapis.com/css?family=Montserrat:400,700');
+
+/* CSS */
+body {
+  background-color: #dfe3ee;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  margin: 0;
+}
+
+
+body > main > center > p {
+  color: #29487d;
+}
+
+body > main > center > h1 {
+  text-transform: uppercase;
+  color: #29487d;
+  font-size: 48px;
+}
+
+body > main > center > h3 > a {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #dfe3ee;
+  background-color: #29487d;
+  text-decoration: none;
+  padding: 1px 5px;
+  border: 1px solid #29487d;
+  border-radius: 5px;
+}

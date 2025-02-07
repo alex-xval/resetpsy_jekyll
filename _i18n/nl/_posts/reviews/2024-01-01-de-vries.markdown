@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: reviews-1
+date: 2024-01-01
+img: 
+alt: Jan en Elsbeth de Vries review. Na 25 jaar huwelijk voelden we ons verloren en losgekoppeld ...
+project-date: 
+client: Jan and Elsbeth de Vries
+category: reviews
+description: Na 25 jaar huwelijk voelden we ons verloren en losgekoppeld. Anastasia hielp ons onze liefde voor elkaar te herontdekken en onze relatie sterker dan ooit op te bouwen. Haar begeleiding was van onschatbare waarde en we zijn haar zo dankbaar voor haar steun in deze uitdagende tijd. We raden haar ten zeerste aan bij elk stel dat hun vonk weer wil laten ontbranden!
+---

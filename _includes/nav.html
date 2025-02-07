@@ -4,12 +4,12 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header page-scroll">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
+        <span class="sr-only">{% t menu.navigation %}</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#page-top">{{ site.title }}</a>
+      <a class="navbar-brand" href="#page-top">{% t global.psychologist %}</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,18 +19,31 @@
           <a href="#page-top"></a>
         </li>
         <li class="page-scroll">
-          <a href="#portfolio">Therapy</a>
+          <a href="#portfolio">{% t menu.therapy %}<</a>
         </li>
         <li class="page-scroll">
-          <a href="#about">About</a>
+          <a href="#about">{% t menu.about %}</a>
         </li>
         <li class="page-scroll">
-          <a href="#reviews">Reviews</a>
+          <a href="#reviews">{% t menu.reviews %}</a>
         </li>        
         <li class="page-scroll">
-          <a href="#contact">Contact</a>
+          <a href="#contact">{% t menu.contact %}</a>
         </li>
+        <li>
+          <p>&nbsp;</p>
+        </li>
+        <li class="page-scroll">
+          <a href="/">{% t langs.en %}</a>
+        </li>
+        <li class="page-scroll">
+          <a href="/nl">{% t langs.nl %}</a>
+        </li>
+        <li class="page-scroll">
+          <a href="/ru">{% t langs.ru %}</a>
+        </li>        
       </ul>
+
     </div>
     <!-- /.navbar-collapse -->
   </div>

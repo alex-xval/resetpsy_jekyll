@@ -16,7 +16,7 @@
             <h2>{{ post.client }}</h2>
             <hr class="star-primary">
             {% if post.img %}
-            <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+            <img src="/img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
             {% endif %}
             {% if post.description %}
             <p>{{ post.description }}</p>
@@ -29,7 +29,7 @@
               {% endif %}
             </ul>
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i>
-              Close</button>
+              {% t global.close %}</button>
           </div>
         </div>
       </div>

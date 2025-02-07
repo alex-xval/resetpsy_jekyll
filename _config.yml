@@ -1,12 +1,12 @@
+encoding: utf-8
+
 # Site settings
-title: Psyhologist
 email: akarpeyeva@gmail.com
 url: https://resetpsy.com
-description: "Anastasia, a compassionate and insightful psychologist, helps patients navigate life's challenges and unlock their full potential through evidence-based therapy and a warm, supportive approach."
-keywords: "psychologist, psychology, therapy, training, trainor, coach, coaching, mentor, mentoring"
-skills: "Psychologist - Trainer"
-meta_author: Karpeyeva Anastasia
-name: Anastasia Karpeyeva
+meta_author: true
+
+languages: ["en", "nl", "ru"]
+exclude_from_localizations: ["js", "img", "css", "favicon.ico", "CNAME", "freelancer-theme-jekyll.gemspec", "Rakefile", "robots.txt", "screenshot.png"]
 
 # Google webmaster tools
 google_verify:
@@ -35,13 +35,6 @@ color:
   secondary-dark: 29487d #A2122F dark gray 1
   secondary-light: dfe3ee # light gray
 
-# Footer settings
-footer:
-  copyright: Anastasia Karpeyeva
-  location: Location
-  social: Web
-  credits: Get in Touch
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: linkedin
@@ -49,19 +42,18 @@ social:
   - title: instagram
     url: https://www.instagram.com/anastasia.karpeyeva.nl
 
-# Postal address (add as many lines as necessary)
-address:
-  - line: "Delft"
-  - line: "The Netherlands"
-
-# Credits content
-credits: 
+# Contacts
+contacts: 
   - line: "<a href=\"mailto:akarpeyeva@gmail.com\" style=\"color: white;\">akarpeyeva@gmail.com</a>"
   - line: "<a href=\"tel:+31613692325\" style=\"color: white;\">+31 6 13692325</a>"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Plugins
+plugins:
+  - jekyll-multiple-languages-plugin
 
 #for posts
 defaults:

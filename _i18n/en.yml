@@ -1,0 +1,43 @@
+global:
+  tagline: English
+  anastasia : Anastasia Karpeyeva  
+  psychologist: Psychologist
+  trainer: Trainer
+  skills: "Psychologist - Trainer"
+  close: Close
+site:
+  title: Anastasia Karpeyeva Psychologist
+  description: "Anastasia Karpeyeva, a compassionate and insightful psychologist, helps patients navigate life's challenges and unlock their full potential through evidence-based therapy and a warm, supportive approach."
+  keywords: "psychologist, psychology, therapy, training, trainor, coach, coaching, mentor, mentoring"
+menu:
+  navigation: Toggle navigation
+  therapy: Therapy
+  about: About
+  reviews: Reviews
+  contact: Contact
+langs:
+  english: English
+  dutch: Nederlandse
+  russian: Русский
+  en: en
+  nl: nl
+  ru: ru
+contact:
+  me: Contact Me
+  name: Name
+  nameValidation: Please enter your name.
+  email: Email Address
+  emailValidation: Please enter your email address.
+  message: Message
+  messageValidation: Please enter a message.
+  send: Send
+footer:
+  location: Location
+  delft: Delft
+  nl: The Netherlands
+  web: Web
+  contacts: Get in Touch
+about:
+  line1: Hi, I'm Anastasia Karpeyeva, a Consulting Psychologist and Neurointegration Trainer. I offer my services in <b>Russian, English, and Dutch</b>. My background includes a university degree in Child and Adolescent Psychology, complemented by a wide range of coaching and psychology certifications.
+  line2: I'm passionate about helping people of all ages navigate life's challenges, enhance their well-being, and unlock their inner potential. Whether you're seeking support for personal growth, relationships, or  family concerns, including those related to children and adolescents, I'm here to provide guidance and support on your journey.
+  line3: I offer a variety of psychotherapy approaches tailored to your needs, ensuring the most effective path towards your well-being and personal growth. My expertise as a coach and trainer complements my therapeutic skills, providing comprehensive support and guidance on your journey to achieving your goals. 

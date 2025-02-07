@@ -1,0 +1,43 @@
+global:
+  tagline: Nederlandse
+  anastasia : Anastasia Karpeyeva
+  psychologist: Psycholoog
+  trainer: Trainer
+  skills: "Psycholoog - Trainer"
+  close: Sluiten
+site:
+  title: Anastasia Karpeyeva Psycholoog
+  description: "Anastasia Karpeyeva, een meelevende en inzichtelijke psycholoog, helpt patiënten om te gaan met de uitdagingen van het leven en hun volledige potentieel te ontsluiten door middel van therapie op basis van bewijs en een warme, ondersteunende benadering."
+  keywords: "psycholoog, psychologie, therapie, training, trainer, coach, coaching, mentor, mentoring"
+menu:
+  navigation: Schakel navigatie in
+  therapy: Therapie
+  about: Over
+  reviews: Recensies
+  contact: Contact
+langs:
+  english: English
+  dutch: Nederlandse
+  russian: Русский
+  en: en
+  nl: nl
+  ru: ru  
+contact:
+  me:   Neem contact met mij op
+  name: Naam
+  nameValidation: Voer uw naam in.
+  email: E-mailadres
+  emailValidation: Voer uw e-mailadres in.
+  message: Bericht
+  messageValidation: Voer een bericht in.
+  send: Verzenden
+footer:
+  location: Locatie
+  delft: Delft
+  nl: Nederland
+  web: Web
+  contacts: Neem contact op
+about:
+  line1: Hallo, ik ben Anastasia Karpeyeva, een Consulting Psychologist en Neurointegration Trainer. Ik bied mijn diensten aan in het <b>Russisch, Engels en Nederlands</b>. Mijn achtergrond omvat een universitaire graad in kinder- en adolescentenpsychologie, aangevuld met een breed scala aan coaching- en psychologiecertificeringen.
+  line2: Ik ben gepassioneerd over het helpen van mensen van alle leeftijden om de uitdagingen van het leven te navigeren, hun welzijn te verbeteren en hun innerlijke potentieel te ontsluiten. Of u nu op zoek bent naar ondersteuning voor persoonlijke groei, relaties of familieproblemen, inclusief die met betrekking tot kinderen en adolescenten, ik ben hier om begeleiding en ondersteuning te bieden op uw reis.
+  line3: Ik bied een verscheidenheid aan psychotherapiebenaderingen op maat van uw behoeften, zodat u de meest effectieve weg naar uw welzijn en persoonlijke groei kunt volgen. Mijn expertise als coach en trainer vult mijn therapeutische vaardigheden aan, waardoor ik uitgebreide ondersteuning en begeleiding kan bieden op uw reis naar het bereiken van uw doelen.

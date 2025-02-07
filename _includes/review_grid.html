@@ -1,14 +1,14 @@
 <!-- Review Grid Section -->
+{% assign reviews_posts = site.posts | where: "category", "reviews" %}
 <section id="reviews">
   <div class="container portfolio-flex-grid">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2>Reviews</h2>
+        <h2>{% t menu.reviews %}</h2>
         <hr class="star-primary star-secondary-light">
       </div>
     </div>
     <div class="portfolio-flex-row">
-      {% assign reviews_posts = site.posts | where: "category", "reviews" %}
       {% for post in reviews_posts %}
       <div class="portfolio-flex-item portfolio-item">
         <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link secondary-color" data-toggle="modal">
