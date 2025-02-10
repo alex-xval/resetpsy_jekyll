@@ -28,6 +28,7 @@ contact:
   nameValidation: Voer uw naam in.
   email: E-mailadres
   emailValidation: Voer uw e-mailadres in.
+  emailError: Geen geldig e-mailadres.
   message: Bericht
   messageValidation: Voer een bericht in.
   send: Verzenden

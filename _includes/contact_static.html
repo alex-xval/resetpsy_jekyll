@@ -22,7 +22,7 @@
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="email">{% t contact.email %}</label>
               <input type="email" name="email" class="form-control" placeholder="{% t contact.email %}" id="email" required
-                data-validation-required-message="{% t contact.emailValidation %}">
+                data-validation-required-message="{% t contact.emailValidation %}" data-validation-validemail-message="{% t contact.emailError %}">
               <p class="help-block text-danger"></p>
             </div>
           </div>

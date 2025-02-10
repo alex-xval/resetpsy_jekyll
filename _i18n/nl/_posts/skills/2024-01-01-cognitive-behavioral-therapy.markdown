@@ -3,9 +3,9 @@ layout: default
 modal-id: skills-1
 date: 2024-01-01
 img: resetpsy_cognitive_1.png
-alt: NL Cognitive Behavioral Therapy
+alt: Cognitieve gedragstherapie
 project-date: 
-client: NL Cognitive Behavioral Therapy
+client: Cognitive Behavioral Therapy
 category: skills
-description: NL Cognitive Behavioral Therapy (CBT) is a type of psychotherapy that focuses on the interconnectedness of thoughts, feelings, and behaviors. It helps individuals identify and modify negative or unhelpful thought patterns and behaviors that contribute 1  to emotional distress or mental health challenges. As a psychologist, I adhere to best practices in CBT by utilizing evidence-based techniques and strategies to help clients develop coping skills and achieve their therapeutic goals. I provide a supportive and collaborative environment where clients can explore their thoughts and feelings, challenge negative thinking, and learn practical strategies for managing their challenges. My approach is tailored to each client's individual needs and goals, ensuring that they receive the most effective and relevant treatment possible.
+description: Cognitieve gedragstherapie (CGT) is een vorm van psychotherapie die zich richt op de onderlinge verbondenheid van gedachten, gevoelens en gedragingen. Het helpt individuen om negatieve of nutteloze denkpatronen en gedragingen te identificeren en te wijzigen die bijdragen 1 aan emotionele nood of mentale gezondheidsproblemen. Als psycholoog houd ik me aan de beste praktijken in CGT door gebruik te maken van op bewijs gebaseerde technieken en strategieën om cliënten te helpen copingvaardigheden te ontwikkelen en hun therapeutische doelen te bereiken. Ik bied een ondersteunende en samenwerkende omgeving waarin cliënten hun gedachten en gevoelens kunnen onderzoeken, negatief denken kunnen uitdagen en praktische strategieën kunnen leren om hun uitdagingen aan te pakken. Mijn aanpak is afgestemd op de individuele behoeften en doelen van elke cliënt, zodat ze de meest effectieve en relevante behandeling krijgen die mogelijk is.
 ---
