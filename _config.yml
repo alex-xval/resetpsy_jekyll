@@ -6,7 +6,7 @@ url: https://resetpsy.com
 meta_author: true
 
 languages: ["en", "nl", "ru"]
-exclude_from_localizations: ["js", "img", "css", "favicon.ico", "CNAME", "freelancer-theme-jekyll.gemspec", "Rakefile", "robots.txt", "screenshot.png"]
+exclude_from_localizations: ["js", "img", "css", "favicon.ico", "CNAME", "freelancer-theme-jekyll.gemspec", "Rakefile", "robots.txt", "screenshot.png", "sitemap.xml"]
 
 # Google webmaster tools
 google_verify:

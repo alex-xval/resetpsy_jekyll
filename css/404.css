@@ -8,7 +8,7 @@ body {
 }
 
 
-body > main > center > p {
+body > main > center {
   color: #29487d;
 }
 
@@ -16,6 +16,11 @@ body > main > center > h1 {
   text-transform: uppercase;
   color: #29487d;
   font-size: 48px;
+}
+
+body > main > center > .centered-elements {
+  text-align: left; 
+  display: inline-block;
 }
 
 body > main > center > h3 > a {
