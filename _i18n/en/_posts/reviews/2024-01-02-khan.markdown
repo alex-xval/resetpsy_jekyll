@@ -3,9 +3,9 @@ layout: default
 modal-id: reviews-2
 date: 2024-01-02
 img: 
-alt: Aisha Khan review. Going through my divorce was incredibly painful ...
+alt: Right now, I feel much calmer and more confident (there’s a lot of your work in this 😌). I can talk to my husband and resolve conflicts with less emotional strain on myself 🤞🏻.
 project-date: 
-client: Aisha Khan
+client: Woman 30+
 category: reviews
-description: Going through my divorce was incredibly painful, but Anastasia provided a safe and supportive space for me to heal and find my strength again. Her insights and empathy were truly remarkable.  Thanks to her guidance, I was able to navigate this difficult transition with clarity and confidence. I am forever grateful for her support.
+description: “Nastya, hi 🙂 Right now, I feel much calmer and more confident (there’s a lot of your work in this 😌). I can talk to my husband and resolve conflicts with less emotional loss for myself 🤞🏻. I’ve definitely stopped picking myself apart so much and have started treating myself more gently. I often openly say that I’m being moody. I’ve started to fool around more! 😁”
 ---

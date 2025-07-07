@@ -3,9 +3,9 @@ layout: default
 modal-id: reviews-2
 date: 2024-01-02
 img: 
-alt: Aisha Khan review. Mijn scheiding doormaken was ongelooflijk pijnlijk ...
+alt: Op dit moment voel ik me veel rustiger en zelfverzekerder (daar heb jij een grote rol in gespeeld 😌). Ik kan met mijn man praten en conflicten oplossen met minder emotioneel verlies voor mezelf 🤞🏻
 project-date: 
-client: Aisha Khan
+client: Vrouw 30+
 category: reviews
-description: Mijn scheiding doormaken was ongelooflijk pijnlijk, maar Anastasia bood me een veilige en ondersteunende ruimte om te helen en mijn kracht weer te vinden. Haar inzichten en empathie waren echt opmerkelijk. Dankzij haar begeleiding kon ik deze moeilijke overgang met helderheid en vertrouwen doorstaan. Ik ben haar eeuwig dankbaar voor haar steun. 
+description: Nastya, hoi! 🙂 Op dit moment voel ik me veel rustiger en zelfverzekerder (daar heb jij een grote rol in gespeeld 😌). Ik kan met mijn man praten en conflicten oplossen met minder emotioneel verlies voor mezelf 🤞🏻Ik ben zeker gestopt met mezelf zoveel te bekritiseren en ben voorzichtiger en zachter voor mezelf geworden. Ik zeg vaak openlijk dat ik gewoon een beetje chagrijnig ben. En ik ben meer gaan gek doen! 😁
 ---

@@ -3,9 +3,9 @@ layout: default
 modal-id: reviews-3
 date: 2024-01-03
 img: 
-alt: Peter Janssen review. I was stuck in a career rut and feeling unfulfilled ...
+alt: Thank you so much for your contribution to my well-being 🥰 And thank you in general for our cozy and warm conversations, for the way you guide me so wonderfully.
 project-date: 
-client: Peter Janssen
+client: Woman 20+
 category: reviews
-description: I was stuck in a career rut and feeling unfulfilled. Anastasia helped me identify my true passions and create a plan to achieve my goals.  Her coaching was insightful and motivating, and I now have a renewed sense of purpose and direction in my career. I highly recommend her services to anyone seeking professional fulfillment.
+description: Hello, Nastya! Thank you so much for your contribution to my well-being 🥰 And thank you in general for our cozy and warm conversations, for the way you guide me so wonderfully.The whole summer passed under the shadow of depression and apathy (even the memory of it feels vague and dark), but now I feel like I’m on a completely different wavelength. I perceive and analyze everything around me in a new way. Like the sun breaking through the clouds and clearing the sky!”
 ---

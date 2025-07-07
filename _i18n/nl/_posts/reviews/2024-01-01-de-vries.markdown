@@ -3,9 +3,9 @@ layout: default
 modal-id: reviews-1
 date: 2024-01-01
 img: 
-alt: Jan en Elsbeth de Vries review. Na 25 jaar huwelijk voelden we ons verloren en losgekoppeld ...
+alt: Sommige dingen zijn zo’n deel van mij geworden dat ik zelfs vergeten ben dat ik ze binnen onze sessies heb geleerd.
 project-date: 
-client: Jan and Elsbeth de Vries
+client: Gestalt therapist 30+
 category: reviews
-description: Na 25 jaar huwelijk voelden we ons verloren en losgekoppeld. Anastasia hielp ons onze liefde voor elkaar te herontdekken en onze relatie sterker dan ooit op te bouwen. Haar begeleiding was van onschatbare waarde en we zijn haar zo dankbaar voor haar steun in deze uitdagende tijd. We raden haar ten zeerste aan bij elk stel dat hun vonk weer wil laten ontbranden!
+description: Nastya, hoi! 😊 Je bent zo georganiseerd 😍😍😍 Ik ben onder de indruk!!)) Je bent echt geweldig 🥰 Ik bewonder hoe alles zo goed berekend is bij jou!))Ik heb veel nagedacht over ons werk en ben zo dankbaar voor je. Ik zie veel vooruitgang – we hebben zoveel onderwerpen behandeld. Heel erg bedankt! En ik ben er zeker van dat mijn recente behoefte om relaties te verduidelijken een teken is van veiligheid, vertrouwen en een heel therapeutisch proces. Ik wilde je enorm bedanken voor je geduld 🤣🤣🤣🤣, voor de oefeningen en voor je warmte! Ik haal zoveel uit ons werk! Sommige dingen zijn zo’n deel van mij geworden dat ik zelfs vergeten ben dat ik ze binnen onze sessies heb geleerd. Vorige week ging ik een tand laten trekken, en terwijl ik wachtte, ademde ik zoals je me geleerd hebt. 😊 Heel erg bedankt – het heeft echt geholpen!
 ---

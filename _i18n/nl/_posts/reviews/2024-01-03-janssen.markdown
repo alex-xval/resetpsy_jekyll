@@ -3,9 +3,9 @@ layout: default
 modal-id: reviews-3
 date: 2024-01-03
 img: 
-alt: Peter Janssen recensie. Ik zat vast in een carrièresleur en voelde me onbevredigd ... 
+alt: Heel erg bedankt voor je bijdrage aan mijn welzijn 🥰 En dank je wel in het algemeen voor onze gezellige en warme gesprekken, voor de manier waarop je me zo goed begeleidt.
 project-date: 
-client: Peter Janssen
+client: Vrouw 20+
 category: reviews
-description: Ik zat vast in een carrièresleur en voelde me onvervuld. Anastasia hielp me mijn ware passies te identificeren en een plan te maken om mijn doelen te bereiken. Haar coaching was inzichtelijk en motiverend, en ik heb nu een hernieuwd gevoel van doel en richting in mijn carrière. Ik raad haar diensten ten zeerste aan iedereen aan die op zoek is naar professionele vervulling.
+description: “Hallo, Nastya! Heel erg bedankt voor je bijdrage aan mijn welzijn 🥰 En dank je wel in het algemeen voor onze gezellige en warme gesprekken, voor de manier waarop je me zo goed begeleidt. De hele zomer ging voorbij onder de schaduw van depressie en apathie (zelfs de herinnering eraan voelt vaag en donker), maar nu voel ik me op een volledig andere golflengte. Ik neem alles om me heen op een nieuwe manier waar en analyseer het. Als de zon die door de wolken breekt en de lucht klaart!”
 ---
