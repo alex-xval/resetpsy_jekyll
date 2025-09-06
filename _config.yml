@@ -2,9 +2,9 @@ encoding: utf-8
 
 # Site settings
 email: akarpeyeva@gmail.com
-url: "https://alex-xval.github.io"
-baseurl: "/resetpsy_jekyll"
-# url: https://resetpsy.com
+# url: "https://alex-xval.github.io"
+# baseurl: "/resetpsy_jekyll"
+url: https://resetpsy.com
 meta_author: true
 
 languages: ["en", "nl", "ru"]
