@@ -7,5 +7,6 @@ alt: “Het was bijzonder en heel erg fijn dat we van u als psycholoog goede han
 project-date: 
 client: Agnes. Projectleiders Onderwijs aan Oekraïense kinderen in Gouda.
 category: reviews
-description: “Via deze brief willen wij u heel hartelijk bedanken voor uw vrijwillige(!) hulp aan de kinderen op onze school. Op onze school voor gevluchte Oekraïense kinderen zitten verschillende kinderen die niet lekker in hun vel zitten, getraumatiseerd zijn en soms moeilijk gedrag laten zien. Het was bijzonder en heel erg fijn dat we van u als psycholoog goede handvatten hebben gekregen om hiermee om te gaan en ook dat u bereid was om met kinderen zelf en hun moeder in gesprek te gaan om hen te helpen. Daarvoor een groot: Dank je wel!“
+description: >
+    Via deze brief willen wij u heel hartelijk bedanken voor uw vrijwillige(!) hulp aan de kinderen op onze school. Op onze school voor gevluchte Oekraïense kinderen zitten verschillende kinderen die niet lekker in hun vel zitten, getraumatiseerd zijn en soms moeilijk gedrag laten zien. Het was bijzonder en heel erg fijn dat we van u als psycholoog goede handvatten hebben gekregen om hiermee om te gaan en ook dat u bereid was om met kinderen zelf en hun moeder in gesprek te gaan om hen te helpen. Daarvoor een groot: Dank je wel!
 ---

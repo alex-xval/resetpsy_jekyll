@@ -3,9 +3,10 @@ layout: default
 modal-id: reviews-6
 date: 2024-01-06
 img: 
-alt: “It was exceptional and greatly appreciated that, as a psychologist, you provided us with effective tools to manage these situations, and that you were also willing to speak directly with the children and their mother to help them.“
+alt: It was exceptional and greatly appreciated that, as a psychologist, you provided us with effective tools to manage these situations, and that you were also willing to speak directly with the children and their mother to help them.
 project-date: 
 client: Agnes. Project Leader for Education for Ukrainian Children in Gouda.
 category: reviews
-description: “With this letter, we want to thank you very much for your volunteer (!) help for the children at our school. In our school for Ukrainian refugee children, there are several children who are struggling, are traumatized, and sometimes exhibit challenging behavior. It was exceptional and greatly appreciated that, as a psychologist, you provided us with effective tools to manage these situations, and that you were also willing to speak directly with the children and their mother to help them. For that, a huge: Thank you!“
+description: >
+    With this letter, we want to thank you very much for your volunteer (!) help for the children at our school. In our school for Ukrainian refugee children, there are several children who are struggling, are traumatized, and sometimes exhibit challenging behavior. It was exceptional and greatly appreciated that, as a psychologist, you provided us with effective tools to manage these situations, and that you were also willing to speak directly with the children and their mother to help them. For that, a huge: Thank you!
 ---

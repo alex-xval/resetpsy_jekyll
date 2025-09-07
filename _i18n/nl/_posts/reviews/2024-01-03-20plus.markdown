@@ -7,5 +7,5 @@ alt: “Heel erg bedankt voor je bijdrage aan mijn welzijn 🥰 En dank je wel i
 project-date: 
 client: Vrouw 20+
 category: reviews
-description: “Hallo, Nastya! Heel erg bedankt voor je bijdrage aan mijn welzijn 🥰 En dank je wel in het algemeen voor onze gezellige en warme gesprekken, voor de manier waarop je me zo goed begeleidt. De hele zomer ging voorbij onder de schaduw van depressie en apathie (zelfs de herinnering eraan voelt vaag en donker), maar nu voel ik me op een volledig andere golflengte. Ik neem alles om me heen op een nieuwe manier waar en analyseer het. Als de zon die door de wolken breekt en de lucht klaart!“
+description: Hallo, Nastya! Heel erg bedankt voor je bijdrage aan mijn welzijn 🥰 En dank je wel in het algemeen voor onze gezellige en warme gesprekken, voor de manier waarop je me zo goed begeleidt. De hele zomer ging voorbij onder de schaduw van depressie en apathie (zelfs de herinnering eraan voelt vaag en donker), maar nu voel ik me op een volledig andere golflengte. Ik neem alles om me heen op een nieuwe manier waar en analyseer het. Als de zon die door de wolken breekt en de lucht klaart!
 ---
