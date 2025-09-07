@@ -288,6 +288,15 @@ li.language-selector select.lang-switcher:focus {
         height: 50px;
     }
 }
+/* Profile photo styling */
+img.profile-photo {
+    width: 250px;
+    max-width: 100%;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto 20px;
+}
 /* (Rollback complete: removed alignment media query additions) */
 
 section {
