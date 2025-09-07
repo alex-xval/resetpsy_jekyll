@@ -184,46 +184,65 @@ header .intro-text .skills {
 
 /* Language selector styling */
 li.language-selector {
-        /* Use flex to vertically center the select relative to the navbar height */
-        display: flex;
-        align-items: center;
-        padding: 0 15px; /* match anchor horizontal padding */
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 li.language-selector select.lang-switcher {
     background: #fff;
     color: #333;
     border: 1px solid #ccc;
     border-radius: 4px;
-        padding: 4px 10px 4px 8px;
-        font-size: 13px;
+    padding: 4px 8px;
+    font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
-        line-height: 1.2;
 }
 li.language-selector select.lang-switcher:focus {
     outline: 0;
     border-color: #{{ site.color.primary }};
     box-shadow: 0 0 0 2px rgba({{ site.color.primary-rgb }},0.25);
 }
-
-/* Shrink navbar keeps vertical centering */
-@media (min-width: 768px) {
-    .navbar-fixed-top.navbar-shrink li.language-selector { padding: 0 15px; }
-}
-
-/* Mobile (collapsed / accordion) view: center the selector */
+/* Mobile (collapsed navbar) center the language selector */
 @media (max-width: 767px) {
-    li.language-selector {
-        display: block; /* reset flex to allow full-width centering */
-        padding: 10px 15px;
+    .navbar-nav > li.language-selector {
         text-align: center;
     }
-    li.language-selector select.lang-switcher {
+    .navbar-nav > li.language-selector select.lang-switcher {
         display: inline-block;
-        margin: 0 auto;
+        width: auto; /* shrink to content */
     }
 }
+
+/* --- Align language selector height with nav links --- */
+/* Desktop & wide: match Bootstrap .navbar-nav > li > a vertical padding (15px) */
+.navbar-nav > li.language-selector { padding: 0; }
+.navbar-nav > li.language-selector .lang-switcher {
+    display: block;
+    padding: 15px 10px; /* vertical matches links, horizontal a bit tighter */
+    margin: 0; /* remove default margins */
+    line-height: 20px; /* approximate Bootstrap link line-height */
+    height: auto; /* let padding define total height */
+    border-radius: 0; /* make it visually integrate like links */
+}
+
+/* Shrunk navbar (theme reduces padding from 25->10) - align select too */
+@media (min-width: 768px) {
+    .navbar-fixed-top.navbar-shrink .navbar-nav > li.language-selector .lang-switcher {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+}
+
+/* Collapsed (mobile) menu: use same padding as collapsed links (usually 10px) */
+@media (max-width: 767px) {
+    .navbar-nav > li.language-selector .lang-switcher {
+        padding: 10px 10px;
+        line-height: 20px;
+    }
+}
+/* --- End alignment overrides --- */
+/* (Rollback complete: removed alignment media query additions) */
 
 section {
     padding: 100px 0;
