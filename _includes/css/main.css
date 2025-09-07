@@ -40,6 +40,10 @@ h6 {
     color: #{{ site.color.secondary }} !important;
 }
 
+.elementor-widget-container ul li {
+  font-size: inherit;
+}
+
 hr.star-light,
 hr.star-primary {
     margin: 25px auto 30px;
