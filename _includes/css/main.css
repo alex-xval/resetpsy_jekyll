@@ -184,24 +184,45 @@ header .intro-text .skills {
 
 /* Language selector styling */
 li.language-selector {
-    padding-top: 8px;
-    padding-bottom: 8px;
+        /* Use flex to vertically center the select relative to the navbar height */
+        display: flex;
+        align-items: center;
+        padding: 0 15px; /* match anchor horizontal padding */
 }
 li.language-selector select.lang-switcher {
     background: #fff;
     color: #333;
     border: 1px solid #ccc;
     border-radius: 4px;
-    padding: 4px 8px;
-    font-size: 14px;
+        padding: 4px 10px 4px 8px;
+        font-size: 13px;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
+        line-height: 1.2;
 }
 li.language-selector select.lang-switcher:focus {
     outline: 0;
     border-color: #{{ site.color.primary }};
     box-shadow: 0 0 0 2px rgba({{ site.color.primary-rgb }},0.25);
+}
+
+/* Shrink navbar keeps vertical centering */
+@media (min-width: 768px) {
+    .navbar-fixed-top.navbar-shrink li.language-selector { padding: 0 15px; }
+}
+
+/* Mobile (collapsed / accordion) view: center the selector */
+@media (max-width: 767px) {
+    li.language-selector {
+        display: block; /* reset flex to allow full-width centering */
+        padding: 10px 15px;
+        text-align: center;
+    }
+    li.language-selector select.lang-switcher {
+        display: inline-block;
+        margin: 0 auto;
+    }
 }
 
 section {
