@@ -259,6 +259,16 @@ li.language-selector select.lang-switcher:focus {
         padding-bottom: 4px;
     }
 }
+/* Force uniform 50px height for language selector */
+.navbar-nav > li.language-selector .lang-switcher {
+    height: 50px !important;
+    line-height: 50px !important; /* centers text in most browsers */
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+@media (min-width: 768px) {
+    .navbar-nav > li.language-selector { margin-left: 50px; }
+}
 /* (Rollback complete: removed alignment media query additions) */
 
 section {
