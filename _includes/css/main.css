@@ -8,7 +8,10 @@ body {
     overflow-x: hidden;
 }
 
-p {
+p, 
+ul,
+li,
+ol {
     font-size: 20px;
 }
 
@@ -38,10 +41,6 @@ h6 {
 
 .secondary-color {
     color: #{{ site.color.secondary }} !important;
-}
-
-.elementor-widget-container ul li {
-  font-size: inherit;
 }
 
 hr.star-light,
@@ -275,6 +274,7 @@ section.success {
       flex-flow: row wrap;
       align-items: stretch;
       justify-content: space-between;
+      row-gap: 40px;
     }
     .portfolio-flex-grid .portfolio-flex-row .portfolio-flex-item {
       flex: 1 0 49%;
@@ -497,4 +497,19 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+/* Override Bootswatch/Bootstrap default green for .btn-success to use brand secondary (Facebook blue).
+   Use literal values to avoid Liquid parsing issues in some tooling. */
+.btn-success {
+    background-color: #3b5998; /* was green (#8b9dc3 is primary, success originally) */
+    border-color: #3b5998;
+}
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+    background-color: #29487d;
+    border-color: #29487d;
 }

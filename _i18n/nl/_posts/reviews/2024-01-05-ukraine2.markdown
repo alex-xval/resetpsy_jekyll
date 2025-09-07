@@ -3,9 +3,9 @@ layout: default
 modal-id: reviews-5
 date: 2024-01-05
 img: 
-alt: Ik ben heel blij met Anastasia. Gisteren heeft ze mijn team echt goed verder geholpen op de studiedag. Oude patronen, verwachtingen, verschil en overeenkomsten en allemaal op de juiste toon.  Ik hou haar nummer graag in mijn telefoon, want ik heb onze samenwerking zeer gewaardeerd!
+alt: “Ik ben heel blij met Anastasia. Gisteren heeft ze mijn team echt goed verder geholpen op de studiedag. Oude patronen, verwachtingen, verschil en overeenkomsten en allemaal op de juiste toon.  Ik hou haar nummer graag in mijn telefoon, want ik heb onze samenwerking zeer gewaardeerd!“
 project-date: 
 client: Melanie. Director oekrainse school Den Haag
 category: reviews
-description: Ik ben heel blij met Anastasia. Gisteren heeft ze mijn team echt goed verder geholpen op de studiedag. Oude patronen, verwachtingen, verschil en overeenkomsten en allemaal op de juiste toon.  Ik hou haar nummer graag in mijn telefoon, want ik heb onze samenwerking zeer gewaardeerd!
+description: “Ik ben heel blij met Anastasia. Gisteren heeft ze mijn team echt goed verder geholpen op de studiedag. Oude patronen, verwachtingen, verschil en overeenkomsten en allemaal op de juiste toon.  Ik hou haar nummer graag in mijn telefoon, want ik heb onze samenwerking zeer gewaardeerd!“
 ---

@@ -3,9 +3,9 @@ layout: default
 modal-id: reviews-2
 date: 2024-01-02
 img: 
-alt: Op dit moment voel ik me veel rustiger en zelfverzekerder (daar heb jij een grote rol in gespeeld 😌). Ik kan met mijn man praten en conflicten oplossen met minder emotioneel verlies voor mezelf 🤞🏻
+alt: “Op dit moment voel ik me veel rustiger en zelfverzekerder (daar heb jij een grote rol in gespeeld 😌). Ik kan met mijn man praten en conflicten oplossen met minder emotioneel verlies voor mezelf 🤞🏻“
 project-date: 
 client: Vrouw 30+
 category: reviews
-description: Nastya, hoi! 🙂 Op dit moment voel ik me veel rustiger en zelfverzekerder (daar heb jij een grote rol in gespeeld 😌). Ik kan met mijn man praten en conflicten oplossen met minder emotioneel verlies voor mezelf 🤞🏻Ik ben zeker gestopt met mezelf zoveel te bekritiseren en ben voorzichtiger en zachter voor mezelf geworden. Ik zeg vaak openlijk dat ik gewoon een beetje chagrijnig ben. En ik ben meer gaan gek doen! 😁
+description: “Nastya, hoi! 🙂 Op dit moment voel ik me veel rustiger en zelfverzekerder (daar heb jij een grote rol in gespeeld 😌). Ik kan met mijn man praten en conflicten oplossen met minder emotioneel verlies voor mezelf 🤞🏻Ik ben zeker gestopt met mezelf zoveel te bekritiseren en ben voorzichtiger en zachter voor mezelf geworden. Ik zeg vaak openlijk dat ik gewoon een beetje chagrijnig ben. En ik ben meer gaan gek doen! 😁“
 ---

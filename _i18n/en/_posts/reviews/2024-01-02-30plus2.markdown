@@ -3,9 +3,9 @@ layout: default
 modal-id: reviews-2
 date: 2024-01-02
 img: 
-alt: Right now, I feel much calmer and more confident (there’s a lot of your work in this 😌). I can talk to my husband and resolve conflicts with less emotional strain on myself 🤞🏻.
+alt: “Right now, I feel much calmer and more confident (there’s a lot of your work in this 😌). I can talk to my husband and resolve conflicts with less emotional strain on myself 🤞🏻.“
 project-date: 
 client: Woman 30+
 category: reviews
-description: “Nastya, hi 🙂 Right now, I feel much calmer and more confident (there’s a lot of your work in this 😌). I can talk to my husband and resolve conflicts with less emotional loss for myself 🤞🏻. I’ve definitely stopped picking myself apart so much and have started treating myself more gently. I often openly say that I’m being moody. I’ve started to fool around more! 😁”
+description: “Nastya, hi 🙂 Right now, I feel much calmer and more confident (there’s a lot of your work in this 😌). I can talk to my husband and resolve conflicts with less emotional loss for myself 🤞🏻. I’ve definitely stopped picking myself apart so much and have started treating myself more gently. I often openly say that I’m being moody. I’ve started to fool around more! 😁“
 ---

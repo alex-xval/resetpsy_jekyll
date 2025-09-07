@@ -3,9 +3,9 @@ layout: default
 modal-id: reviews-3
 date: 2024-01-03
 img: 
-alt: Thank you so much for your contribution to my well-being 🥰 And thank you in general for our cozy and warm conversations, for the way you guide me so wonderfully.
+alt: “Thank you so much for your contribution to my well-being 🥰 And thank you in general for our cozy and warm conversations, for the way you guide me so wonderfully.“
 project-date: 
 client: Woman 20+
 category: reviews
-description: Hello, Nastya! Thank you so much for your contribution to my well-being 🥰 And thank you in general for our cozy and warm conversations, for the way you guide me so wonderfully.The whole summer passed under the shadow of depression and apathy (even the memory of it feels vague and dark), but now I feel like I’m on a completely different wavelength. I perceive and analyze everything around me in a new way. Like the sun breaking through the clouds and clearing the sky!”
+description: “Hello, Nastya! Thank you so much for your contribution to my well-being 🥰 And thank you in general for our cozy and warm conversations, for the way you guide me so wonderfully.The whole summer passed under the shadow of depression and apathy (even the memory of it feels vague and dark), but now I feel like I’m on a completely different wavelength. I perceive and analyze everything around me in a new way. Like the sun breaking through the clouds and clearing the sky!“
 ---

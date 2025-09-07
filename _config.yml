@@ -46,8 +46,10 @@ social:
 
 # Contacts
 contacts: 
-  - line: "<a href=\"mailto:akarpeyeva@gmail.com\" style=\"color: white;\">akarpeyeva@gmail.com</a>"
-  - line: "<a href=\"tel:+31613692325\" style=\"color: white;\">+31 6 13692325</a>"
+  - type: email
+    value: akarpeyeva@gmail.com
+  - type: phone
+    value: "+31 6 13692325"
 
 # Build settings
 markdown: kramdown
