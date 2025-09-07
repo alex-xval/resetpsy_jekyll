@@ -22,10 +22,10 @@
           <a href="#about">{% t menu.about %}</a>
         </li>
         <li class="page-scroll">
-          <a href="#org">{% t menu.org %}</a>
+          <a href="#org">{% t menu.clients %}</a>
         </li>
         <li class="page-scroll">
-          <a href="#individuals">{% t menu.individuals %}</a>
+          <a href="#portfolio">{% t menu.education %}</a>
         </li>
         <li class="page-scroll">
           <a href="#reviews">{% t menu.reviews %}</a>
@@ -33,18 +33,14 @@
         <li class="page-scroll">
           <a href="#contact">{% t menu.contact %}</a>
         </li>
-        <li>
-          <p>&nbsp;</p>
+        <!-- Language selector -->
+        <li class="language-selector">
+          <select id="lang-switcher" class="lang-switcher" aria-label="Language selector" onchange="window.location.href=this.value;">
+            <option value="/" {% unless page.url contains '/nl' or page.url contains '/ru' %}selected{% endunless %}>{% t langs.en %}</option>
+            <option value="/nl" {% if page.url contains '/nl' %}selected{% endif %}>{% t langs.nl %}</option>
+            <option value="/ru" {% if page.url contains '/ru' %}selected{% endif %}>{% t langs.ru %}</option>
+          </select>
         </li>
-        <li class="page-scroll">
-          <a href="/">{% t langs.en %}</a>
-        </li>
-        <li class="page-scroll">
-          <a href="/nl">{% t langs.nl %}</a>
-        </li>
-        <li class="page-scroll">
-          <a href="/ru">{% t langs.ru %}</a>
-        </li>        
       </ul>
 
     </div>

@@ -11,9 +11,11 @@ site:
   keywords: "психолог, психология, терапия, тренинг, тренер, коуч, коучинг, ментор, менторинг"
 menu:
   navigation: Переключить навигацию
+  clients: Для клиентов
   org: Организации
   individuals: Клиенты
   about: Обо мне
+  education: Образование
   reviews: Отзывы
   contact: Контакты
 title:

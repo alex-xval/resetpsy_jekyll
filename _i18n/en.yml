@@ -12,8 +12,10 @@ site:
 menu:
   navigation: Toggle navigation
   about: About
+  clients: For Clients
   org: Organizations
   individuals: Individuals
+  education: Education
   reviews: Reviews
   contact: Contact
 title:

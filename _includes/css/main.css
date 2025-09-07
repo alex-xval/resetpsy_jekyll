@@ -182,6 +182,28 @@ header .intro-text .skills {
     border: 0;
 }
 
+/* Language selector styling */
+li.language-selector {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+li.language-selector select.lang-switcher {
+    background: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+li.language-selector select.lang-switcher:focus {
+    outline: 0;
+    border-color: #{{ site.color.primary }};
+    box-shadow: 0 0 0 2px rgba({{ site.color.primary-rgb }},0.25);
+}
+
 section {
     padding: 100px 0;
 }
@@ -206,9 +228,9 @@ section.success {
     }
 }
 
-#reviews {
+.background-secondary-light {
     background-color: #{{ site.color.secondary-light }};
-  }
+}
 
 #portfolio .portfolio-item {
     right: 0;
