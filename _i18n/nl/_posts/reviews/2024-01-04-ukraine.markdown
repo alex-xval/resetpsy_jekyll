@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: reviews-4
+date: 2024-01-04
+img: 
+alt: De ouders zijn erg blij met de manier waarop je de afgelopen ouderavond hebt gedaan, het was erg waardevol voor hen. We zouden het fijn vinden als je nog een keer zou willen komen.
+project-date: 
+client: Mieneke. Dagcoördinator opvang ontheemden Oekraïne Den Haag
+category: reviews
+description: De ouders zijn erg blij met de manier waarop je de afgelopen ouderavond hebt gedaan, het was erg waardevol voor hen. We zouden het fijn vinden als je nog een keer zou willen komen.
+---

@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: reviews-4
+date: 2024-01-04
+img: 
+alt: The parents are very pleased with the way you conducted the recent parent-teacher evening; it was very valuable for them. We would be delighted if you could come again.
+project-date: 
+client: Mieneke. Day Coordinator for the reception of displaced persons from Ukraine, The Hague
+category: reviews
+description: The parents are very pleased with the way you conducted the recent parent-teacher evening; it was very valuable for them. We would be delighted if you could come again.
+---

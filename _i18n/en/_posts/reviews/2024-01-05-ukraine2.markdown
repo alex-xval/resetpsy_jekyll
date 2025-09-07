@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: reviews-5
+date: 2024-01-05
+img: 
+alt: I am very pleased with Anastasia. She provided excellent support to my team during our professional development day yesterday. Old patterns, expectations, differences, and similarities were all addressed with the perfect tone. I will gladly keep her number, as I greatly valued our collaboration!
+project-date: 
+client: Melanie. Director of the Ukrainian school in The Hague
+category: reviews
+description: I am very pleased with Anastasia. She provided excellent support to my team during our professional development day yesterday. Old patterns, expectations, differences, and similarities were all addressed with the perfect tone. I will gladly keep her number, as I greatly valued our collaboration!
+---
