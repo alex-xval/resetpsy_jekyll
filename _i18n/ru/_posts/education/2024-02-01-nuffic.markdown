@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: diploma-2
+date: 2024-02-01
+img: nuffic_diploma_evaluation.jpg
+alt: Оценка диплома от Nuffic
+project-date: 
+client: Nuffic - Оценка университетского диплома
+category: education
+description: Международная оценка диплома.
+---

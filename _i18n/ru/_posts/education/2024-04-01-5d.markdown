@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: diploma-4
+date: 2024-04-01
+img: 5d-trainer.jpg
+alt: Сертификат тренинга по командному лидерству
+project-date: 
+client: Сертификат
+category: education
+description: Тренинг для тренеров. Командное лидерство.
+---

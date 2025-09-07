@@ -421,6 +421,23 @@ section.success {
     transition: all .3s ease-in-out;
 }
 
+/* Thumbnail constraint box for education grid */
+#portfolio .portfolio-item .thumb-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 220px; /* fixed box height (adjust if needed) */
+    max-width: 100%;
+    overflow: hidden; /* hide overflow if any */
+}
+#portfolio .portfolio-item .thumb-box img {
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain; /* ensure full image visible */
+}
+
 .btn-outline:hover,
 .btn-outline:focus,
 .btn-outline:active,

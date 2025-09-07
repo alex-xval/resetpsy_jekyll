@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: diploma-2
+date: 2024-02-01
+img: nuffic_diploma_evaluation.jpg
+alt: Nuffic Diploma Evaluation
+project-date: 
+client: Nuffic Univercity Diploma Evaluation
+category: education
+description: International Diploma Evaluation.
+---

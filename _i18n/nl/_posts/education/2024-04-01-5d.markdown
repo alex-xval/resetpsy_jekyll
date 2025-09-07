@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: diploma-4
+date: 2024-04-01
+img: 5d-trainer.jpg
+alt: Certificaat Training Teamleiderschap
+project-date: 
+client: Certificaat
+category: education
+description: Train de trainer. Teamleiderschap.
+---

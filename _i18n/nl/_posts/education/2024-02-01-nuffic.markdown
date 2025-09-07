@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: diploma-2
+date: 2024-02-01
+img: nuffic_diploma_evaluation.jpg
+alt: Nuffic Diplomawaardering
+project-date: 
+client: Nuffic Diplomawaardering
+category: education
+description: Internationale Diplomawaardering.
+---
