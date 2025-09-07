@@ -11,8 +11,9 @@ site:
   keywords: "psycholoog, psychologie, therapie, training, trainer, coach, coaching, mentor, mentoring"
 menu:
   navigation: Schakel navigatie in
-  therapy: Therapie
   about: Over mij
+  org: Organisaties
+  individuals: Individuen
   reviews: Recensies
   contact: Contact
 langs:
@@ -50,3 +51,37 @@ about:
     <li>het samenbrengen van teams en implementeren van veranderingen.</li>
     </ul>
     Mijn aanpak is persoonlijk en resultaatgericht: ik breng helderheid in complexe situaties en geef handvatten waarmee duurzame verbeteringen mogelijk worden.
+org:
+  line: |
+    Denk aan mij wanneer uw organisatie leerlingen uit Oekraïne, Wit-Rusland of Rusland ontvangt en u ondersteuning nodig heeft om hen succesvol te begeleiden. Ik bied praktische, maatgerichte hulp zodat kinderen, ouders en leerkrachten zich veilig en gehoord voelen.
+    <p><b>Wat ik kan bieden:</b></p>
+    <p><b>1. Inzicht en advies</b>
+    <ul>
+    <li>Analyse van de achtergrond van het kind: uitdagingen, taal, gezinssituatie, migratie-ervaringen of andere relevante factoren.</li>
+    <li>Praktische adviezen voor intern begeleiders en leerkrachten om samenwerking tussen school, ouders en kinderen uit Oost-Europa te verbeteren.</li>
+    </ul></p>
+    <p><b>2. Ondersteuning bij communicatie en observaties</b>
+    <ul>
+    <li>MDO-gesprekken (multidisciplinair overleg), inclusief tolken en methoden om gezamenlijke beslissingen begrijpelijk te maken voor ouders die geen Nederlands spreken.</li>
+    <li>Tolken bij IQ-testen en andere observaties, met aandacht voor culturele verschillen en testvaliditeit.</li>
+    <li>Taalondersteuning en begeleiding voor ouders.</li>
+    </ul></p>
+    <p><b>3. Veiligheid en welzijn</b>
+    <ul>
+    <li>Preventie en aanpak van pesten: trajecten op maat voor leerling, ouder, klas en schoolklimaat.</li>
+    <li>Coaching voor leerkrachten: praktische tools om in een klas met verschillende talen en culturen een veilige omgeving te creëren en goed contact met leerlingen te maken.</li>
+    </ul></p>
+    <p><b>4. Trainingen en workshops</b>
+    <ul>
+    <li>Trainingen, lezingen en workshops voor klassen, leerkrachten teams en ouders.</li>
+    <li>Play Masterplan - serious game voor organisaties, inclusief begeleiding bij het spel.</li>
+    </ul></p>
+    <p><b>5. Organisatie en implementatie</b>
+    <ul>
+    <li>Implementatie van veranderingen en team-building.</li>
+    <li>Rapportage &amp; opvolging: heldere, bruikbare verslaglegging voor schooldossier en oudercommunicatie.</li>
+    <li>Flexibele samenwerking: korte adviestrajecten of langdurige ondersteuning, gefactureerd vanuit Reset Psychology Training & Advice, vrijgesteld van BTW.</li>
+    </ul></p>
+individuals:
+  line: |
+    TBD        

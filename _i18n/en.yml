@@ -11,8 +11,9 @@ site:
   keywords: "psychologist, psychology, therapy, training, trainor, coach, coaching, mentor, mentoring"
 menu:
   navigation: Toggle navigation
-  therapy: Therapy
   about: About
+  org: Organizations
+  individ: Individuals
   reviews: Reviews
   contact: Contact
 langs:
@@ -43,10 +44,47 @@ about:
     I am a psychologist-consultant with a master's degree in school psychology and extensive experience in guiding students, parents, and teachers, including in crisis situations.
     My strength lies in quickly understanding the core issues and finding practical, creative, and customized solutions.
     I support schools and organizations in:
-    <ul>
+    <p><ul>
     <li>Strengthening children's self-confidence and adaptability;</li>
     <li>Guiding teachers through periods of change and innovation;</li>
     <li>Collaborating with parents by creating a clear and feasible plan of action in which they feel heard and experience a sense of security in their decision-making;</li>
     <li>Uniting teams and implementing changes.</li>
-    </ul>
-    My approach is personal and results-oriented: I bring clarity to complex situations and provide practical tools that enable sustainable improvements.
+    </ul></p>
+    <p>My approach is personal and results-oriented: I bring clarity to complex situations and provide practical tools that enable sustainable improvements.</p>
+org:
+  line: |
+    Consider me when your organization is receiving students from Ukraine, Belarus, or Russia and you need support to guide them successfully. I offer practical, tailored assistance so that children, parents, and teachers feel safe and heard.
+    <p><b>What I can offer:</b></p>
+    <p><b>1. Insight and Advice</b>
+    <ul>
+    <li>Analysis of the child's background: challenges, language, family situation, migration experiences, or other relevant factors.</li>
+    <li>Assessment of the school's capacity to support the child: resources, expertise, and potential gaps.</li>
+    <li>Recommendations for tailored support strategies: educational adjustments, psychological support, and social integration.</li>
+    </ul></p>
+    <p><b>2. Practical Support</b>
+    <ul>
+    <li>Workshops and training sessions for teachers on cultural sensitivity, trauma-informed care, and inclusive teaching practices.</li>
+    <li>Individual or group counseling sessions for students to help them cope with stress, anxiety, and adaptation challenges.</li>
+    <li>Parent workshops to provide guidance on supporting their children's education and well-being in a new environment.</li>
+    </ul></p>
+    <p><b>3. Ongoing Collaboration</b>
+    <ul>
+    <li>Regular check-ins with school staff to monitor the child's progress and adjust support strategies as needed.</li>
+    <li>Facilitation of communication between the school, parents, and external support services to ensure a cohesive approach.</li>
+    <li>Documentation &amp; follow-up: clear, actionable reporting for school records and parent communication.</li>
+    <li>Flexible collaboration: short-term consultations or long-term support, invoiced through Reset Psychology Training & Advice, VAT-exempt.</li>
+    </ul></p>
+    <p><b>4. Training and workshops</b>
+    <ul>
+    <li>Training, lectures and workshops for classes, teacher teams and parents.</li>
+    <li>Play Masterplan - serious game for organizations, including guidance during the game.</li>
+    </ul></p>
+    <p><b>5. Organization and implementation</b>
+    <ul>
+    <li>Implementation of changes and team-building.</li>
+    <li>Reporting &amp; follow-up: clear, usable reports for school files and parent communication.</li>
+    <li>Flexible collaboration: short advisory processes or long-term support, invoiced from Reset Psychology Training & Advice, exempt from VAT.</li>
+    </ul></p>
+individuals:
+  line: |
+    TBD    
