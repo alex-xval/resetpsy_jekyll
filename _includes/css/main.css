@@ -242,6 +242,23 @@ li.language-selector select.lang-switcher:focus {
     }
 }
 /* --- End alignment overrides --- */
+/* Desktop vertical centering for language selector */
+@media (min-width: 768px) {
+    .navbar-nav > li.language-selector {
+        display: flex;
+        align-items: center; /* vertical center */
+    }
+    .navbar-nav > li.language-selector .lang-switcher {
+        padding: 6px 10px; /* slimmer internal padding */
+        line-height: 1.42857143; /* match Bootstrap base line-height */
+        height: auto;
+    }
+    /* When navbar shrinks, keep centering */
+    .navbar-fixed-top.navbar-shrink .navbar-nav > li.language-selector .lang-switcher {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+}
 /* (Rollback complete: removed alignment media query additions) */
 
 section {
