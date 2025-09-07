@@ -269,6 +269,25 @@ li.language-selector select.lang-switcher:focus {
 @media (min-width: 768px) {
     .navbar-nav > li.language-selector { margin-left: 50px; }
 }
+/* Brand logo vertical centering */
+.navbar .navbar-brand {
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 50px; /* align with language selector */
+}
+.navbar .navbar-brand .brand-logo {
+    display: block;
+    height: 50px;
+    width: auto;
+}
+/* Maintain height when navbar shrinks */
+@media (min-width: 768px) {
+    .navbar-fixed-top.navbar-shrink .navbar-brand {
+        height: 50px;
+    }
+}
 /* (Rollback complete: removed alignment media query additions) */
 
 section {
