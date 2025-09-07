@@ -9,7 +9,7 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <p class="text-pre-wrap">{% t about.line %}</p>
+        {{ "about.line" | t | markdownify }}
       </div>
     </div>
   </div>
