@@ -24,7 +24,7 @@
         <div class="footer-col col-md-4">
           <h3>{% t footer.contacts %}</h3>
           <p>
-          {% for c in site.data.contacts %} 
+          {% for c in site.contacts %} 
           {% if c.type == "email" %} <a href="mailto:{{ c.value }}" style="color:white;">{{ c.value }}</a><br> 
           {% elsif c.type == "phone" %} <a href="tel:{{ c.value | replace: ' ', '' }}" style="color:white;">{{ c.value }}</a><br> {% endif %} 
           {% endfor %}
