@@ -297,6 +297,10 @@ img.profile-photo {
     display: block;
     margin: 0 auto 20px;
 }
+/* Mobile horizontal padding utility (mirror container inner spacing used in review grid) */
+@media (max-width: 767px) {
+    .mobile-hpad { padding-left: 15px; padding-right: 15px; }
+}
 /* (Rollback complete: removed alignment media query additions) */
 
 section {
