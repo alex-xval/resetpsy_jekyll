@@ -182,123 +182,76 @@ header .intro-text .skills {
     border: 0;
 }
 
-/* Match nav link look while keeping native select dropdown behavior */
-.navbar .language-selector { position: relative; }
-.navbar .language-selector select.lang-switcher {
-background: transparent;
-border: none;
-color: #fff;
-font-size: 14px; /* align with .navbar-nav > li > a */
-font-weight: 400;
-text-transform: uppercase; /* match nav items */
-padding: 15px 5px; /* vertical rhythm similar to links */
-height: 50px; /* typical navbar height */
-line-height: 20px;
-cursor: pointer;
-appearance: none;
--webkit-appearance: none;
--moz-appearance: none;
-}
-.navbar .language-selector select.lang-switcher:focus {
-outline: none;
-box-shadow: none;
-}
-/* Dropdown list items remain readable on light background */
-#lang-switcher option { color: #222; }
-/* High contrast if navbar has hover color changes */
-.navbar .language-selector select.lang-switcher:hover { color: #fff; }
-/* If navbar collapses, ensure full width on mobile for easier tap */
-@media (max-width: 767px) {
-.navbar .language-selector select.lang-switcher { width: 100%; padding-left: 0; }
-}
-
-/* Language selector styling */
+/* (Removed earlier temporary language selector block to avoid duplication) */
+/* --- Language selector (align with nav links) --- */
 li.language-selector {
-    padding-top: 8px;
-    padding-bottom: 8px;
+    position: relative;
+    padding: 0;
+    display: flex;
+    align-items: center; /* vertical center like anchors */
 }
 li.language-selector select.lang-switcher {
-    background: #fff;
-    color: #333;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    padding: 4px 8px;
-    font-size: 14px;
-    font-weight: 600;
+    background: transparent;
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    padding: 19.5px 32px 19.5px 15px; /* mirror .navbar-nav>li>a vertical padding (19.5) */
+    margin: 0;
+    font-size: 16px; /* bump for optical parity with nav links */
+    font-weight: 700; /* match .navbar font-weight */
     text-transform: uppercase;
+    line-height: 21px; /* same as bootstrap nav link line-height */
+    height: auto;
     cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-clip: padding-box;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; /* match nav font */
 }
+/* Down caret */
+li.language-selector:after {
+    content: "\25BE";
+    position: absolute;
+    top: 50%;
+    right: 12px;
+    transform: translateY(-50%);
+    font-size: 11px;
+    color: #fff;
+    pointer-events: none;
+    line-height: 1;
+}
+/* Option list text color (browser default backgrounds) */
+li.language-selector select.lang-switcher option { color: #222; }
+/* Remove default IE arrow */
+li.language-selector select.lang-switcher::-ms-expand { display: none; }
+/* Hover / focus mimic anchor hover color */
+li.language-selector select.lang-switcher:hover,
 li.language-selector select.lang-switcher:focus {
-    outline: 0;
-    border-color: #{{ site.color.primary }};
-    box-shadow: 0 0 0 2px rgba({{ site.color.primary-rgb }},0.25);
+    color: #{{ site.color.primary }};
+    outline: none;
 }
-/* Mobile (collapsed navbar) center the language selector */
+/* Shrink state (navbar reduces vertical padding) */
+@media (min-width: 768px) {
+    .navbar-fixed-top.navbar-shrink li.language-selector select.lang-switcher {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 21px;
+    }
+}
+/* Mobile collapsed menu */
 @media (max-width: 767px) {
-    .navbar-nav > li.language-selector {
-        text-align: center;
-    }
-    .navbar-nav > li.language-selector select.lang-switcher {
-        display: inline-block;
-        width: auto; /* shrink to content */
-    }
-}
-
-/* --- Align language selector height with nav links --- */
-/* Desktop & wide: match Bootstrap .navbar-nav > li > a vertical padding (15px) */
-.navbar-nav > li.language-selector { padding: 0; }
-.navbar-nav > li.language-selector .lang-switcher {
+    li.language-selector { display: block; }
+    li.language-selector select.lang-switcher {
     display: block;
-    padding: 15px 10px; /* vertical matches links, horizontal a bit tighter */
-    margin: 0; /* remove default margins */
-    line-height: 20px; /* approximate Bootstrap link line-height */
-    height: auto; /* let padding define total height */
-    border-radius: 0; /* make it visually integrate like links */
-}
-
-/* Shrunk navbar (theme reduces padding from 25->10) - align select too */
-@media (min-width: 768px) {
-    .navbar-fixed-top.navbar-shrink .navbar-nav > li.language-selector .lang-switcher {
-        padding-top: 10px;
-        padding-bottom: 10px;
+    width: 100%;
+    padding: 10px 32px 10px 15px;
+    font-size: 16px;
+    line-height: 21px; /* collapsed nav link line-height */
     }
+    li.language-selector:after { right: 12px; }
 }
-
-/* Collapsed (mobile) menu: use same padding as collapsed links (usually 10px) */
-@media (max-width: 767px) {
-    .navbar-nav > li.language-selector .lang-switcher {
-        padding: 10px 10px;
-        line-height: 20px;
-    }
-}
-/* --- End alignment overrides --- */
-/* Desktop vertical centering for language selector */
-@media (min-width: 768px) {
-    .navbar-nav > li.language-selector {
-        display: flex;
-        align-items: center; /* vertical center */
-    }
-    .navbar-nav > li.language-selector .lang-switcher {
-        padding: 6px 10px; /* slimmer internal padding */
-        line-height: 1.42857143; /* match Bootstrap base line-height */
-        height: auto;
-    }
-    /* When navbar shrinks, keep centering */
-    .navbar-fixed-top.navbar-shrink .navbar-nav > li.language-selector .lang-switcher {
-        padding-top: 4px;
-        padding-bottom: 4px;
-    }
-}
-/* Force uniform 50px height for language selector */
-.navbar-nav > li.language-selector .lang-switcher {
-    height: 50px !important;
-    line-height: 50px !important; /* centers text in most browsers */
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-}
-@media (min-width: 768px) {
-    .navbar-nav > li.language-selector { margin-left: 50px; }
-}
+/* --- End language selector --- */
 /* Brand logo vertical centering */
 .navbar .navbar-brand {
     display: flex;

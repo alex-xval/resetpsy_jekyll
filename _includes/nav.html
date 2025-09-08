@@ -9,14 +9,14 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-
+      <a class="navbar-brand" href="#page-top">{{ site.home }}</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li class="page-scroll">
-          <b></b><a href="#page-top">{{ site.home }}</a></b>
+        <li class="hidden">
+          <a href="#page-top"></a>
         </li>
         <li class="page-scroll">
           <a href="#about">{% t menu.about %}</a>
@@ -48,21 +48,3 @@
   </div>
   <!-- /.container-fluid -->
 </nav>
-
-<script>
-  // Language switcher: determine current language from first path segment (no fragile regex)
-  document.addEventListener('DOMContentLoaded', function () {
-    var sel = document.getElementById('lang-switcher');
-    if (!sel) return;
-    var path = window.location.pathname || '/';
-    // Remove trailing slash (except for root) to normalize
-    if (path.length > 1 && path.endsWith('/')) path = path.slice(0, -1);
-    var firstSegment = path.split('/')[1] || '';
-    var lang = (firstSegment === 'nl' || firstSegment === 'ru') ? firstSegment : 'en';
-    sel.value = (lang === 'en') ? '/' : '/' + lang;
-    sel.addEventListener('change', function () {
-      var hash = window.location.hash || '';
-      window.location.href = this.value + hash;
-    });
-  });
-</script>
