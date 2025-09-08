@@ -182,6 +182,36 @@ header .intro-text .skills {
     border: 0;
 }
 
+/* Match nav link look while keeping native select dropdown behavior */
+.navbar .language-selector { position: relative; }
+.navbar .language-selector select.lang-switcher {
+background: transparent;
+border: none;
+color: #fff;
+font-size: 14px; /* align with .navbar-nav > li > a */
+font-weight: 400;
+text-transform: uppercase; /* match nav items */
+padding: 15px 5px; /* vertical rhythm similar to links */
+height: 50px; /* typical navbar height */
+line-height: 20px;
+cursor: pointer;
+appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+.navbar .language-selector select.lang-switcher:focus {
+outline: none;
+box-shadow: none;
+}
+/* Dropdown list items remain readable on light background */
+#lang-switcher option { color: #222; }
+/* High contrast if navbar has hover color changes */
+.navbar .language-selector select.lang-switcher:hover { color: #fff; }
+/* If navbar collapses, ensure full width on mobile for easier tap */
+@media (max-width: 767px) {
+.navbar .language-selector select.lang-switcher { width: 100%; padding-left: 0; }
+}
+
 /* Language selector styling */
 li.language-selector {
     padding-top: 8px;
@@ -651,3 +681,5 @@ footer .footer-below {
     background-color: #29487d;
     border-color: #29487d;
 }
+
+
