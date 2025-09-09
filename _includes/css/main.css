@@ -7,6 +7,7 @@
 body {
     overflow-x: hidden;
 }
+html { overflow-x: hidden; }
 
 p, 
 ul,
@@ -148,6 +149,7 @@ header .intro-text .skills {
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
+        font-weight: 700; /* ensure same thickness as nav links */
     }
 
     .navbar-fixed-top.navbar-shrink {
@@ -156,6 +158,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+        font-weight: 700; /* keep weight after shrink */
     }
 }
 
@@ -173,6 +176,13 @@ header .intro-text .skills {
     letter-spacing: 1px;
 }
 
+/* Standardize nav link horizontal padding (slightly narrower to avoid overflow on longer RU words) */
+@media (min-width: 768px) {
+    .navbar-nav > li > a { padding-left: 12px; padding-right: 12px; }
+}
+/* RU language: tighten a bit more */
+html[lang="ru"] .navbar-nav > li > a { padding-left: 10px; padding-right: 10px; }
+
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
@@ -180,6 +190,20 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+
+/* Prevent hidden accessibility text from expanding layout (sr-only was removed, safeguard if reintroduced) */
+.sr-only, [aria-label][role="note"] {
+    max-width:1px !important;
+    overflow:hidden !important;
+    display:inline-block;
+    white-space:nowrap;
+}
+
+/* Constrain oversized headings from causing horizontal overflow due to long unbreakable words */
+h1, h2, h3, h4, h5, h6 {
+    word-break:break-word;
+    overflow-wrap:anywhere;
 }
 
 /* (Removed earlier temporary language selector block to avoid duplication) */
@@ -195,7 +219,7 @@ li.language-selector select.lang-switcher {
     color: #fff;
     border: 0;
     border-radius: 0;
-    padding: 19.5px 32px 19.5px 15px; /* mirror .navbar-nav>li>a vertical padding (19.5) */
+    padding: 19.5px 26px 19.5px 12px; /* narrower to save width */
     margin: 0;
     font-size: 16px; /* bump for optical parity with nav links */
     font-weight: 700; /* match .navbar font-weight */
@@ -208,6 +232,7 @@ li.language-selector select.lang-switcher {
     -moz-appearance: none;
     background-clip: padding-box;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; /* match nav font */
+    max-width: 80px; /* prevent oversized select pushing layout */
 }
 /* Down caret */
 li.language-selector:after {
@@ -245,7 +270,7 @@ li.language-selector select.lang-switcher:focus {
     li.language-selector select.lang-switcher {
     display: block;
     width: 100%;
-    padding: 10px 32px 10px 15px;
+    padding: 10px 26px 10px 12px;
     font-size: 16px;
     line-height: 21px; /* collapsed nav link line-height */
     }
