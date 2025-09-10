@@ -84,14 +84,14 @@ html[lang="ru"] .navbar-nav > li > a { padding-left: 10px; padding-right: 10px; 
 /* Accessibility safeguard */
 .sr-only, [aria-label][role="note"] { max-width: 1px !important; overflow: hidden !important; display: inline-block; white-space: nowrap; }
 
-/* ========== Language Selector ========== */
-li.language-selector { position: relative; padding: 0; display: flex; align-items: center; }
+/* ========== Language Selector (single source of truth; duplicate removed later) ========== */
+li.language-selector { position: relative; padding: 0; display: inline-block; }
 li.language-selector select.lang-switcher {
     background: transparent;
     color: #fff;
     border: 0;
     border-radius: 0;
-    padding: 19.5px 26px 19.5px 12px;
+    padding: 15px 26px 15px 12px; /* nav link vertical rhythm (default bootstrap ~15px) */
     margin: 0;
     font-size: 16px;
     font-weight: 700;
@@ -99,9 +99,7 @@ li.language-selector select.lang-switcher {
     line-height: 21px;
     height: auto;
     cursor: pointer;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+    appearance: none; -webkit-appearance: none; -moz-appearance: none;
     background-clip: padding-box;
     font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
     max-width: 80px;
@@ -110,10 +108,10 @@ li.language-selector:after { content: "\25BE"; position: absolute; top: 50%; rig
 li.language-selector select.lang-switcher option { color: #222; }
 li.language-selector select.lang-switcher::-ms-expand { display: none; }
 li.language-selector select.lang-switcher:hover, li.language-selector select.lang-switcher:focus { color: #{{ site.color.primary }}; outline: none; }
-@media (min-width: 768px) { .navbar-fixed-top.navbar-shrink li.language-selector select.lang-switcher { padding-top: 10px; padding-bottom: 10px; line-height: 21px; } }
+@media (min-width: 768px) { .navbar-fixed-top.navbar-shrink li.language-selector select.lang-switcher { padding-top: 15px; padding-bottom: 15px; } }
 @media (max-width: 767px) {
     li.language-selector { display: block; }
-    li.language-selector select.lang-switcher { display: block; width: 100%; padding: 10px 26px 10px 12px; font-size: 16px; line-height: 21px; }
+    li.language-selector select.lang-switcher { display: block; width: 100%; padding: 10px 26px 10px 12px; }
     li.language-selector:after { right: 12px; }
 }
 
@@ -413,32 +411,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* (Removed earlier temporary language selector block to avoid duplication) */
 /* --- Language selector (align with nav links) --- */
-li.language-selector {
-    position: relative;
-    padding: 0;
-    display: flex;
-    align-items: center; /* vertical center like anchors */
-}
-li.language-selector select.lang-switcher {
-    background: transparent;
-    color: #fff;
-    border: 0;
-    border-radius: 0;
-    padding: 19.5px 26px 19.5px 12px; /* narrower to save width */
-    margin: 0;
-    font-size: 16px; /* bump for optical parity with nav links */
-    font-weight: 700; /* match .navbar font-weight */
-    text-transform: uppercase;
-    line-height: 21px; /* same as bootstrap nav link line-height */
-    height: auto;
-    cursor: pointer;
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    background-clip: padding-box;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif; /* match nav font */
-    max-width: 80px; /* prevent oversized select pushing layout */
-}
+/* duplicate language selector block removed */
 /* Down caret */
 li.language-selector:after {
     content: "\25BE";
@@ -462,13 +435,7 @@ li.language-selector select.lang-switcher:focus {
     outline: none;
 }
 /* Shrink state (navbar reduces vertical padding) */
-@media (min-width: 768px) {
-    .navbar-fixed-top.navbar-shrink li.language-selector select.lang-switcher {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    line-height: 21px;
-    }
-}
+/* removed duplicate shrink media query for language selector */
 /* Mobile collapsed menu */
 @media (max-width: 767px) {
     li.language-selector { display: block; }
