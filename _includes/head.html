@@ -9,12 +9,16 @@
   <meta name="author" content="{% t global.anastasia %}">{% endif %}
   {% assign default_lang = site.languages | first %}
   {% assign current_lang = site.active_lang | default: default_lang %}
+  {% assign normalized_page_path = page.url | replace:'index.html','' %}
+  {% assign lang_prefix = '/' | append: current_lang %}
   {% if current_lang == default_lang %}
-    {% assign canonical_path = page.url | replace:'index.html','' %}
+    {% assign canonical_path = normalized_page_path %}
+  {% elsif normalized_page_path contains lang_prefix %}
+    {% assign canonical_path = normalized_page_path %}
   {% else %}
-    {% assign canonical_path = page.url | remove_first: '/' | remove_first: current_lang | prepend: '/' | append: current_lang | prepend: '/' | replace:'index.html','' %}
+    {% assign canonical_path = lang_prefix | append: normalized_page_path %}
   {% endif %}
-  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+  <link rel="canonical" href="{{ site.url }}{{ canonical_path | default: '/' }}">
   {% for lang in site.languages %}
     {% if lang == default_lang %}
       {% assign lang_path = page.url | replace:'index.html','' | remove_first: '/' | remove_first: current_lang | prepend: '/' %}
