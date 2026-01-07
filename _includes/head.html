@@ -9,20 +9,20 @@
   <meta name="author" content="{% t global.anastasia %}">{% endif %}
   {% assign default_lang = site.languages | first %}
   {% assign current_lang = site.active_lang | default: default_lang %}
-  {% assign localized_url = page.url | replace:'index.html','' %}
+  {% assign base_url = page.url | replace:'index.html','' %}
+  {% assign canonical_path = base_url %}
   {% if current_lang != default_lang %}
-    {% assign localized_url = '/' | append: current_lang | append: localized_url %}
+    {% assign canonical_path = '/' | append: current_lang | append: base_url %}
   {% endif %}
-  <link rel="canonical" href="{{ site.url }}{{ localized_url }}">
+  <link rel="canonical" href="{{ site.url }}{{ canonical_path }}">
   {% for lang in site.languages %}
-    {% assign href = site.url %}
+    {% assign lang_path = base_url %}
     {% if lang != default_lang %}
-      {% assign href = href | append: '/' | append: lang %}
+      {% assign lang_path = '/' | append: lang | append: base_url %}
     {% endif %}
-    {% assign href = href | append: '/' %}
-    <link rel="alternate" hreflang="{{ lang }}" href="{{ href }}" />
+    <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ lang_path }}" />
   {% endfor %}
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/" />
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ base_url }}" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico"> 
 
   <link rel="stylesheet" href="/css/style.css">
