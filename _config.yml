@@ -61,6 +61,9 @@ permalink: pretty
 plugins:
   - jekyll-multiple-languages-plugin
 
+polyglot:
+  redirect: false
+
 #for posts
 defaults:
   - scope:

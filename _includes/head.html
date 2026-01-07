@@ -7,7 +7,22 @@
   <meta name="keywords" content="{% t site.keywords %}" />
   {% if site.meta_author %}
   <meta name="author" content="{% t global.anastasia %}">{% endif %}
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+  {% assign default_lang = site.languages | first %}
+  {% assign current_lang = site.active_lang | default: default_lang %}
+  {% assign localized_url = page.url | replace:'index.html','' %}
+  {% if current_lang != default_lang %}
+    {% assign localized_url = '/' | append: current_lang | append: localized_url %}
+  {% endif %}
+  <link rel="canonical" href="{{ site.url }}{{ localized_url }}">
+  {% for lang in site.languages %}
+    {% assign href = site.url %}
+    {% if lang != default_lang %}
+      {% assign href = href | append: '/' | append: lang %}
+    {% endif %}
+    {% assign href = href | append: '/' %}
+    <link rel="alternate" hreflang="{{ lang }}" href="{{ href }}" />
+  {% endfor %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}/" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico"> 
 
   <link rel="stylesheet" href="/css/style.css">
