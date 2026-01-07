@@ -1,21 +1,70 @@
+---
+layout: null
+permalink: /sitemap.xml
+---
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://resetpsy.com/</loc>
-    <lastmod>2025-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://resetpsy.com/nl/</loc>
-    <lastmod>2025-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  <url>
-    <loc>https://resetpsy.com/ru/</loc>
-    <lastmod>2025-02-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-  </url>
-  </urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  {% assign default_lang = site.languages | first %}
+  {% assign languages = site.languages %}
+  {% assign today = site.time | date: "%Y-%m-%d" %}
+
+  {% for lang in languages %}
+    {% assign prefix = lang == default_lang ? '' : '/' | append: lang %}
+    {% assign loc = site.url | append: prefix | append: '/' %}
+    <url>
+      <loc>{{ loc }}</loc>
+      <lastmod>{{ today }}</lastmod>
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+      {% for alt in languages %}
+        {% assign alt_prefix = alt == default_lang ? '' : '/' | append: alt %}
+        <xhtml:link rel="alternate" hreflang="{{ alt }}" href="{{ site.url }}{{ alt_prefix }}/" />
+      {% endfor %}
+      <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}/" />
+    </url>
+  {% endfor %}
+
+  {% assign posts = site.posts | sort: 'date' | reverse %}
+  {% for post in posts %}
+    {% assign post_path = post.url | replace:'index.html','' %}
+    {% if post_path == '' %}
+      {% continue %}
+    {% endif %}
+    {% assign post_lastmod = post.last_modified_at | default: post.date %}
+    {% assign base_path = post_path %}
+    {% if base_path != '/' %}
+      {% for lang in languages %}
+        {% assign lang_prefix = '/' | append: lang %}
+        {% if base_path == lang_prefix %}
+          {% assign base_path = '/' %}
+        {% elsif base_path contains lang_prefix | append: '/' %}
+          {% assign base_path = base_path | remove_first: lang_prefix %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+    {% if base_path == '' %}
+      {% assign base_path = '/' %}
+    {% endif %}
+    <url>
+      <loc>{{ site.url }}{{ post_path }}</loc>
+      <lastmod>{{ post_lastmod | date: '%Y-%m-%d' }}</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.8</priority>
+      {% for lang in languages %}
+        {% if lang == default_lang %}
+          {% assign alt_path = base_path %}
+        {% else %}
+          {% assign alt_path = '/' | append: lang %}
+          {% if base_path != '/' %}
+            {% assign alt_path = alt_path | append: base_path %}
+          {% else %}
+            {% assign alt_path = alt_path | append: '/' %}
+          {% endif %}
+        {% endif %}
+        <xhtml:link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ alt_path }}" />
+      {% endfor %}
+      <xhtml:link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ base_path }}" />
+    </url>
+  {% endfor %}
+</urlset>
