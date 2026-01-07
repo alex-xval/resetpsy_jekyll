@@ -8,17 +8,27 @@
   {% if site.meta_author %}
   <meta name="author" content="{% t global.anastasia %}">{% endif %}
   {% assign default_lang = site.languages | first %}
-  {% assign current_lang = site.active_lang | default: default_lang %}
-  {% assign normalized_page_path = page.url | replace:'index.html','' %}
-  {% assign lang_prefix = '/' | append: current_lang %}
-  {% if current_lang == default_lang %}
-    {% assign canonical_path = normalized_page_path %}
-  {% elsif normalized_page_path contains lang_prefix %}
-    {% assign canonical_path = normalized_page_path %}
-  {% else %}
-    {% assign canonical_path = lang_prefix | append: normalized_page_path %}
+  {% assign current_lang = page.lang | default: site.active_lang | default: default_lang %}
+
+  {% assign normalized_page_path = page.url | default: '' | replace:'index.html','' %}
+  {% if normalized_page_path == '' %}
+    {% assign normalized_page_path = '/' %}
   {% endif %}
-  <link rel="canonical" href="{{ site.url }}{{ canonical_path | default: '/' }}">
+  {% unless normalized_page_path startswith '/' %}
+    {% assign normalized_page_path = '/' | append: normalized_page_path %}
+  {% endunless %}
+
+  {% if normalized_page_path == '/' %}
+    {% assign derived_path = page.path | default: '' | replace:'index.html','' %}
+    {% if derived_path != '' %}
+      {% unless derived_path startswith '/' %}
+        {% assign derived_path = '/' | append: derived_path %}
+      {% endunless %}
+      {% assign normalized_page_path = derived_path %}
+    {% endif %}
+  {% endif %}
+
+  <link rel="canonical" href="{{ site.url }}{{ normalized_page_path | replace:'//','/' }}">
   {% for lang in site.languages %}
     {% if lang == default_lang %}
       {% assign lang_path = page.url | replace:'index.html','' | remove_first: '/' | remove_first: current_lang | prepend: '/' %}
