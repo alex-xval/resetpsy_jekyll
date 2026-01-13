@@ -9,6 +9,7 @@
     <meta name="author" content="{% t global.anastasia %}">{% endif %}
     {% assign default_lang = site.languages | first %}
     {% assign current_lang = page.lang | default: site.active_lang | default: default_lang %}
+    <!-- DEBUG: current_lang=[{{ current_lang }}] page.lang=[{{ page.lang }}] page.url=[{{ page.url }}] -->
 
     {% comment %} Canonical Link - Single Page Application Structure {% endcomment %}
     {% if current_lang == default_lang %}
