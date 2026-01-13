@@ -10,34 +10,40 @@
   {% assign default_lang = site.languages | first %}
   {% assign current_lang = page.lang | default: site.active_lang | default: default_lang %}
 
-  {% assign normalized_page_path = page.url | default: '' | replace:'index.html','' %}
-  {% if normalized_page_path == '' %}
-    {% assign normalized_page_path = '/' %}
+  {% comment %} Logic to get the pure path without language prefix {% endcomment %}
+  {% assign raw_path = page.url | replace:'index.html','' %}
+  {% assign lang_prefix = '/' | append: current_lang | append: '/' %}
+  
+  {% assign pure_path = raw_path %}
+  {% if current_lang != default_lang %}
+      {% if raw_path contains lang_prefix %}
+          {% assign pure_path = raw_path | replace_first: lang_prefix, '/' %}
+      {% elsif raw_path == lang_prefix %}
+          {% comment %} specific case for language root /nl/ {% endcomment %}
+          {% assign pure_path = '/' %}
+      {% endif %}
   {% endif %}
-  {% unless normalized_page_path startswith '/' %}
-    {% assign normalized_page_path = '/' | append: normalized_page_path %}
+  
+  {% unless pure_path startswith '/' %}
+      {% assign pure_path = '/' | append: pure_path %}
   {% endunless %}
 
-  {% if normalized_page_path == '/' %}
-    {% assign derived_path = page.path | default: '' | replace:'index.html','' %}
-    {% if derived_path != '' %}
-      {% unless derived_path startswith '/' %}
-        {% assign derived_path = '/' | append: derived_path %}
-      {% endunless %}
-      {% assign normalized_page_path = derived_path %}
-    {% endif %}
+  {% comment %} Canonical Link {% endcomment %}
+  {% if current_lang == default_lang %}
+      <link rel="canonical" href="{{ site.url }}{{ pure_path }}" />
+  {% else %}
+      <link rel="canonical" href="{{ site.url }}/{{ current_lang }}{{ pure_path }}" />
   {% endif %}
 
-  <link rel="canonical" href="{{ site.url }}{{ normalized_page_path | replace:'//','/' }}">
+  {% comment %} Hreflang Tags {% endcomment %}
   {% for lang in site.languages %}
-    {% if lang == default_lang %}
-      {% assign lang_path = page.url | replace:'index.html','' | remove_first: '/' | remove_first: current_lang | prepend: '/' %}
-    {% else %}
-      {% assign lang_path = page.url | replace:'index.html','' | remove_first: '/' | remove_first: current_lang | prepend: lang | prepend: '/' %}
-    {% endif %}
-    <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ lang_path }}" />
+      {% if lang == default_lang %}
+          <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}{{ pure_path }}" />
+      {% else %}
+          <link rel="alternate" hreflang="{{ lang }}" href="{{ site.url }}/{{ lang }}{{ pure_path }}" />
+      {% endif %}
   {% endfor %}
-  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url | replace:'index.html','' | remove_first: '/' | remove_first: current_lang | prepend: '/' }}" />
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ pure_path }}" />
   <link rel="icon" type="image/x-icon" href="/favicon.ico"> 
 
   <link rel="stylesheet" href="/css/style.css">

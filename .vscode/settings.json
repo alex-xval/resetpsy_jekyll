@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.CVS": true,
+        "**/.DS_Store": true,
+        "**/.personal": false  // <--- This forces it to be visible
+    },
+    "search.exclude": {
+        "**/.personal": false  // <--- This allows the agent to "search" inside it
+    },
+    "security.workspace.trust.enabled": false
+}
